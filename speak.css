@@ -1,0 +1,185 @@
+ 
+*{padding: 0; margin: 0; box-sizing: border-box; scroll-behavior: smooth;}
+/* div{border: 1px solid red;} */
+a{text-decoration: none;}
+li{list-style: none;}
+img{width: 100%;}
+   
+:root{
+    --main-color: #e19c30;
+    --container-color: #7f888f;
+    --second-color: #fd8f44;
+    --text-color: #172317;
+    --bg-color: #fff;
+    --main-color: #e19c30;
+    --background-color: #001A23;
+    --message-color: #fcfc;
+    --other-color: white;
+}
+
+::selection{
+    color: var(--other-color);
+    background: var(--main-color);
+}
+/* =============================The Header Section ==========================================================*/
+/* position: sticky;
+    top:5px;
+    z-index: 1; */ 
+header{position: fixed;  width: 100%; background-color: rgba(0, 0, 0, 0.6); 
+    padding: 15px; margin-top: 10px; z-index: 1; visibility: visible; border-radius: 6px;}
+.nav{align-items: center;  padding: 1px 0; justify-content: space-between;}
+.main{margin: auto; width: 100%; }
+
+/* ---The Logo-- */
+#logo{font-size: 30px; font-weight: 600; letter-spacing: 1px; color: white; font-variant: small-caps;}
+#logo span{color: var(--main-color);}
+
+/* ---The Donation Button-- */
+.donate{font-size: 25px; font-size: 500; color: white; background-color: var(--main-color); border-radius: 30px;
+ padding: 3px 7px;}
+.donate:hover{color: white; transform: scale(1.1);}
+
+/* ---The navigation-- */
+.navbar{color: white; font-size: 20px; font-weight: 400; letter-spacing: 1px;}
+.navbar:hover{background: var(--main-color); border-radius: 10px; color: white; transform: scale(1.1);}
+
+@media screen and (max-width: 1000px){
+    header{
+        width: 98%;
+    }
+}
+
+/* =============================The Slider Section ===============================================================*/
+#slider{margin-top: 10px;}
+#sliderImg{height: 500px;}
+/* ---The Marquee movement-- */
+marquee{padding: 10px; background-color: rgba(0, 0, 0, 0.7); font-size: 20px; color: white;}
+marquee span{font-style: italic; color: var(--main-color);}
+
+/* =========================== What is Domestic Violence ===========================================================*/
+.container-fluid{width: 100%; margin-top: 30px auto;}
+.heading{text-align: center; font-size: 20px; margin-bottom: 30px;}
+
+.card{width: 40%; background: #fff; transition: 0.3s; margin-bottom: 30px;}
+
+.card-header{text-align: center; padding: 50px 10px; background: linear-gradient(to right, #1a1e21, #fcfc);
+ color: #fff;}
+.card-header h4{font-variant: small-caps; font-size: 25px;}
+
+.card:hover{transform: scale(1.05); box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);}
+
+.row{display: flex; flex-direction: row; justify-content: space-around;}
+
+.card-coment{text-align: center; padding: 30px 10px; font-size: 18px;}
+.card-coment .img1{border-radius: 10px;}
+
+.card-coment .btn{background: #e19c30; color: #fff; border: 2px solid transparent; border-radius: 5px;}
+
+.card-coment .btn:hover{background-color: transparent; border: 2px solid black; color: #e19c30;}
+
+/* =========================== Why We Must Stop Domestic Violence start here =======================================*/
+.container-img{background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/vio3.jpg); 
+ background-repeat: no-repeat; background-size: cover; }
+
+.card-two{width: 100%; margin-top: 30px auto; transition: 0.3s; margin-bottom: 10px;}
+
+.card-heading{ text-align: center; background: linear-gradient(to right, #1a1e21, #fcfc); padding:30px;
+  color: #fff;}
+.card-heading h2{font-variant: small-caps;}
+
+ .card-content{padding: 20px; color: #fff; text-align: center; font-size: 20px;}
+
+ .card-content .btn{background: #e19c30; color: #fff; border: 2px solid transparent; border-radius: 5px;}
+
+/* =========================== I need help vs I want to help ====================================================*/
+.card1{width: 28%; background: #fff; border: 1px solid #ccc; margin-bottom: 50px; transition: 0.3s;}
+#macguee2{padding: 10px; background-color: rgba(0, 0, 0, 0.7);}
+
+.card-header1{text-align: center; padding: 30px 10px; background: linear-gradient(to right, #1a1e21, #fcfc);
+ color: #fff; }
+
+.card-body1{padding:30px 20px; text-align: center; font-size: 18px;}
+
+.card1:hover{transform: scale(1.05); box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25); cursor: pointer;}
+
+        /* Responsive media query */
+            @media screen and (max-width: 1000px){
+                .card1{width: 40%;}
+            }
+
+            @media screen and (max-width: 620px){
+                .container{width: 100%;}
+                .card1{width: 80%;}
+                .heading{padding: 20px; font-size: 20px;}
+            }
+
+/* =========================== The Fix Background Image ====================================================*/
+#background{
+    background-image: url(images/vio1.jpg); background-attachment: fixed;
+    height: 700px; background-repeat: no-repeat; background-size: cover;
+}
+#overlay{height: 700px; background-color: rgba(0, 0, 0, 0.3); width: 100%;}
+
+.coment-fix{padding: 100px 50px; color: #fff;}
+.coment-fix h1{font-style: oblique;}
+.coment-fix h6{font-size: 22px; font-variant: small-caps;}
+.coment-fix h4{font-size: 40px; font-style: italic; font-family: Cambria, Cochin, 'Times New Roman', serif;}
+
+#hr1{width: 60%; height: 4px; color: #ffffff;}
+
+
+/* =========================== The Section of impact ============================================================*/
+#section{width: 100%; align-items: center; text-align: center; padding: 30px;}
+
+#impact{width: 30%; padding: 20px; font-style: italic;}
+#impact h3{font-size: 32px; font-weight: 700; font-style: italic;}
+#impact p{font-size: 20px; font-weight: 400; }
+/* 
+@media screen and (max-width: 1000px){
+    #section{width: 100%;} 
+}
+@media screen and (max-width: 574px){
+    #section{width: 100%;}
+} */
+
+
+/* =========================== The Testimonia section ============================================================*/
+
+.testimonial{background: linear-gradient(to right, #b7babd, #fff); margin-bottom: 10px;}
+.test-heading{text-align: center; padding: 20px; font-style: oblique; color: #e19c30; letter-spacing: 1px;}
+.test-heading h1{font-size: 40px; font-variant: small-caps;}
+#test-comment{text-align: center;}
+#test-comment h3{font-style: oblique;}
+#test-comment p{padding: 20px;}
+#test-comment .btn{background: #e19c30; color: #fff; border: 2px solid transparent; border-radius: 5px;}
+#test-comment .btn:hover{background-color: transparent; border: 2px solid black; color: #e19c30;}
+
+
+/* =========================== The Footer section ============================================================*/
+.footer{background: rgba(0, 0, 0, 0.6); padding: 50px 0;}
+.row-foot{display: flex; flex-wrap: wrap;}
+.footer-col{width: 25%; padding: 0 20px;}
+
+.footer-col h4{font-size: 20px; color: #ffffff; text-transform: capitalize; font-weight: 500px; position: relative;
+    margin-bottom: 30px;}
+.footer-col h4::before{content: ''; position: absolute; left: 0; bottom: -10px; background-color: #e19c30; height: 2px;
+    box-sizing: border-box; width: 60px;}
+
+.footer-col p{color: #fff; font-size: 17px;}
+.footer-col ul li {color: #ffffff; text-transform: capitalize; font-size: 17px;}
+.footer-col ul li:hover{color: #ffffff; padding-left: 8px; cursor: pointer;}
+
+.footer-col .social-link a{display: inline-block; height: 40px; width: 40px; background-color: rgba(255, 255, 255, 0.2);
+    text-align: center; line-height: 40px; border-radius: 50%; color: #fff; transition: all 0.5s ease;}
+.footer-col .social-link a:hover{color: #fff; background-color: #e19c30;}
+
+@media screen and (max-width: 1000px){
+    .footer-col{
+        width: 50%; padding: 20px;
+    }
+}
+@media screen and (max-width: 574px){
+    .footer-col{width: 100%;}
+}
+
+#bottom-footer{text-align: center; padding: 20px; background:rgba(0,0,0,0.8); color: #fff;}

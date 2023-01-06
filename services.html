@@ -1,0 +1,418 @@
+
+<?php include_once "header.php"; ?>
+
+<!DOCTYPE html>
+
+	<html lang="en">
+		
+
+
+	<head>
+		    	
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	   
+	<!------------------------ font awesome -------------------------------------------------------------->
+			<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+	<!------------------------ The Box Icons -------------------------------------------------------------->
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	
+		<meta name="description" content="Subscribe for daily motivational quotes">
+		<meta name="keyword" content="The Emerging Economy, Smart Money Student, the growing economy">
+		<meta name="Author" content="Ajo Frank N">
+		   
+	<!------------------------ The Bootstrap link ---------------------------------------------------------->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!------------------------ The css animation ------------------------------------------------------------>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<!------------------------ The external CSS ---------------------------------------------------------->
+		<link rel="stylesheet" type="text/css" href="speak.css">
+			<title>Services</title>
+
+
+
+	<style>
+
+/*background picture start here*/
+		#background{
+			margin-top:px;
+			background-image: url(images/serve3.jpg);
+			height: 500px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: sticky;
+		} 
+
+		
+/* =========================== The Fix Background Image ====================================================*/
+		#overlay{background-color: black; height: 500px; background-color: rgba(0, 0, 0, 0.5);}
+
+		#hr2{color: green; height: 5px; width: 15%;  padding: 6px; margin-left: 80px;}
+
+		#background h1{color: #fff;  padding-top: 150px; padding-left: 100px; font-size: 40px;
+			font-style: oblique; font-family: algerian;}
+
+/* =========================== Image and List of Our Services ====================================================*/
+		#service-content{background-color: silver; align-content: center; height: 350px; box-shadow: 10px 10px 5px;
+			border-radius: 20px 2px;}
+		#hr3{width: 50%; height: 15px; color: blueviolet; }
+		#service-content h2{ padding-top: 30px; padding-bottom: 20px;}
+		#service-content ul{color: black; font-size: 25px;}
+		#service-content li{list-style: disc;}
+		#service-content ul li a{color: black; text-decoration: underline;}
+		#service-content ul li a:hover{padding-left: 10px;}
+
+/* =========================== Type Of Services ====================================================*/
+		
+	/* ---------------MEDICAL------------------------- */
+		#hr4{ height: 2px; color: black; border: 2px solid black;}
+
+		.service-header{text-align: center; padding: 20px; font-variant: small-caps;}
+		.service-header h2{font-size: 50px; font-weight: bolder; font-style: oblique;}
+
+		.service-body{padding: 0 20px;}
+		.service-body p{font-size: 20px; font-weight: 400;}
+		#service-img2{padding: 30px 30px; border-radius: 7px;}
+		#img2{border-radius: 7px;}
+		
+	/* ---------------ADVOCACY------------------------- */
+		.service-header2{text-align: center; padding: 20px; background: rgba(0, 0, 0, 0.5); font-variant: small-caps;}
+		.service-header2 h2{font-size: 50px; font-weight: bolder; font-style: oblique;}
+
+		.service-body2{padding: 0 20px; background: rgba(0, 0, 0, 0.1);}
+		.service-body2 p{font-size: 20px; font-weight: 400;}
+
+		
+		.service-body2 .btn{background: #e19c30; color: #fff; border: 2px solid transparent; border-radius: 5px;
+			margin-left: 50%;}
+
+		.service-body2 .btn:hover{background-color: transparent; border: 2px solid black; color: #e19c30;}
+
+	
+	/* ---------------ADVOCACY------------------------- */
+		.empower-header{text-align: center;}
+		.empower-header h2{font-size: 50px; font-variant: small-caps; font-style: oblique; padding: 20px;}
+		.empower-body{padding: 10px; font-size: 18px;}
+		.empower-body .btn{background: #e19c30; color: #fff; border: 2px solid transparent; border-radius: 5px; 
+			margin-left: 50%;}
+		.empower-body .btn:hover{background-color: transparent; border: 2px solid black; color: #e19c30;}
+						
+	</style>
+	</head>
+
+	
+
+			  <body>
+			  
+
+
+<!-- <div class="container"> -->
+<!-- Opening of div container -->
+
+
+
+<!------------------------ The header start here --------------------------->
+<header>
+
+	<div class="nav main">
+	<a href="index.html" id="logo" class="navbar-brand animate__animated animate__bounce animate__slower
+		animate__infinite">Speak<span>Out</span></a>
+
+		<a href="about.html" class="navbar">About Us</a>
+		<a href="services.html" class="navbar">Services</a>
+		<a href="getInvolve.html" class="navbar">Get Involve</a>
+		<a href="#" class="navbar">Get Help</a>
+		<a href="#" class="navbar">Login</a>
+
+	<a href="#" class="donate">Donate</a>
+	</div>
+
+</header>
+<!------------------------ The header ends here --------------------------->
+
+
+
+	
+<!-- Background image (fixed) start here -->
+			<div class="row">
+				<div class="col-md-12" id="background">
+					<div id="overlay">
+	
+						<h1>Our Services</h1>
+						<hr id="hr2">
+						
+
+					</div>
+				</div>
+
+			</div>
+<!-- Background image (fixed) Ends here -->
+
+
+<!-------------- Image and List of Services rendered here ----------------------->
+
+			<div class="row mt-3">
+
+				<div class="col-md-1"></div>
+				<div class="col-md-7" id="service-image">
+					<img src="images/service.jpg" alt="myphoto" class="img-fluid">
+				</div>
+
+				
+				<!-- <div class="col-md-1"></div> -->
+				<div class="col-md-3" id="service-content">
+					<hr id="hr3">
+					<h2>Our Services</h2>
+						<ul>
+							<li><a href="#">Advocacy</a></li>
+							<li><a href="#">Medical Service</a></li>
+							<li><a href="#">Empowerment</a></li>
+							<li><a href="#">Counselling</a></li>
+						</ul>
+				</div>
+
+				<div class="col-md-1"></div>
+
+			</div>
+
+<!-------------- Image and List of Services rendered here ----------------------->
+
+
+
+<!---------------- The Types of Services Start Here -------------------------------------->
+
+	<!------- Medical Services Here ------>
+
+			<div class="row mt-3">
+
+				<div class="col-md-8">
+					<div class="service-header">
+						<h2>Rendering Medical Services!</h2>
+					</div>
+
+					<div class="service-body">
+						<p>
+							Health care providers are an essential link in the coordinated effort to 
+							break the cycle of violence and build a healthy community. Identifying and responding 
+							to DV in health care settings can make a tremendous difference for patients’ physical health,
+							mental health, safety, and quality of life. Although women are disproportionately impacted 
+							by DV, anyone can be a victim regardless of sex/gender, sexual orientation, race, ethnicity, 
+							culture, religion, age, income, or level of education. Victims of domestic violence turn to 
+							health care providers by the thousands every day seeking.
+						</p>
+						<hr id="hr4"> 
+					</div>
+				</div>
+
+				
+				<div class="col-md-4" id="service-img2">
+					<img src="images/med2.jpg" alt="myphoto" class="img-fluid" id="img2">
+				</div>
+				
+				
+			</div>
+
+	 	<!------- Advocacy Services Here ------>
+
+		
+		 <div class="row mt-3">
+
+			<div class="col-md-12">
+				<div class="service-header2">
+					<h2>Advocating for End of Domestic Violence!</h2>
+				</div>
+
+				<div class="service-body2">
+					<p>
+						At SpeakOut, we believe that preventive measures are the most efficient ways of addressing Domestic
+						 Violence Issues. To this end, we have embarked on several advocacy programs... our target 
+						 audience are the following groups-
+						Grassroots Engagement</p>
+
+						<p>SpeakOut Team is in continuous engagement with Traditional Rulers, Market women, artisans and other
+						 groups on what Domestic entails, the impact it has on the victim, children and the society at 
+						 large, their role as responders and the need for them to condemn such acts when it comes to their
+						 attention.
+						Media</p>
+
+						<p>SpeakUp uses the media (print, audio and visual) to bring to the fore, issues of DV, consequential 
+						impact this crime has on the parties, the children and the society at large. This is hoped to slowly
+						 change society's perception about Sexual and Gender Based Violence.
+						Corporate organisations</p>
+
+					<p>SpeakUp regularly engages companies in town hall sessions as a means of reaching the middle class. 
+						Faith based institutions Members of SpeakUp are on a continuous basis invited to speak about Sexual
+						 and Domestic Violence at churches and mosques. At such fora, members of the congregation and 
+						 spiritual leaders are encouraged not to ask persons in abusive relationships to remain there or 
+						 request victims of sexual assault to keep quiet but rather people should be encouraged to seek help.
+						  Pastors and Imams are also encouraged to speak about these issues and condemn them outrightly.
+					</p>
+
+					<a href="#" class="btn">Read More</a>
+					 
+				</div>
+			</div>
+
+			
+			<div class="col-md-4" id="service-img2">
+				
+			</div>		
+		</div>
+
+	
+		
+	<!------- Counselling and Empowerment Services Here ------>
+
+			<div class="row">
+				<div class="con-md-1"></div>
+
+				<div class="col-md-5">
+
+					<div class="empower-header">
+						<h2>Counselling</h2>
+					</div>
+
+					<div class="empower-body">
+						<p>
+							SpeakUp have a team of professional counselors that interact on a regular basics with victims of 
+							domestic violence to help them through the strauma of abuse.
+
+							This is also relevant to help a victim of DV heal psychologically and emotionally from the 
+							various abuses the have gone through.
+						</p>
+
+						<img src="images/serve1.jpg" alt="">
+					</div>
+
+				</div>
+
+				
+				<div class="col-md-5">
+
+					<div class="empower-header">
+						<h2>Empowerment</h2>
+					</div>
+
+					<div class="empower-body">
+						<p>
+							Survivors of Domestic and sexual violence may suffer from financial strains just as devastating
+							 as their physical injuries and emotional trauma.</p>
+							 <p>
+							The financial difficulties may emanate from unpaid medical bills, and inability to work caused by
+							 injury. Even more pressing is the fact that financial stress often leaves survivors stuck in 
+							 abusive relationships because their partners are often the breadwinners of the home and they 
+							 do not have any source of income to take care of themselves and their children on their own.
+							</p>
+							<p>
+							The SpeakUp Team has create a DV Trust Fund in order to provide financial assistance to victims
+							 and their families. And while no amount of money can erase the trauma and grief victims suffer, 
+							 this aid can be crucial in the aftermath of abuse. By paying for care that helps restore victims'
+							  physical and mental health, and by replacing lost income for victims who cannot work and for 
+							  families where the breadwinner is an abuser, the Trust Fund assists survivors in direct ways.
+							  
+						</p>
+						<a href="#" class="btn">Read More</a>
+					</div>
+
+				</div>
+
+				<div class="con-md-1"></div>
+			</div>
+
+
+<!---------------- The Types of Services Ends Here -------------------------------------->
+
+
+
+<!------------------------- The Footer start here ------------------------------------------------>
+<footer class="footer">
+	<div class="container-foot">
+
+		<div class="row-foot">
+
+			<div class="footer-col">
+				<h4>Speak<psan>Out</psan></h4>
+					<ul>
+						<p>
+							With a passion and drive to create
+							a lasting society where domestic
+							violence no longer exist and victims
+							of domestict violence are cared for...
+						</p>
+					</ul>
+			</div>
+
+			
+			<div class="footer-col">
+				<h4>Get Help</h4>
+					<ul>
+						<li><a href="#"></a>FAQ</li>
+						<li><a href="#"></a></li>
+					</ul>
+			</div>
+
+			
+			<div class="footer-col">
+				<h4>Quick Link</h4>
+					<ul>
+						<li><a href="#"></a>About Us</li>
+						<li><a href="#"></a>Service</li>
+						<li><a href="#"></a>Get Involve</li>
+						<li><a href="#"></a>Get Help</li>
+					</ul>
+			</div>
+
+			
+			<div class="footer-col">
+				<h4>Follow Us</h4>
+				<div class="social-link">
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+			</div>
+
+		</div>
+		
+	</div>
+</footer>	 
+<!------------------------- The Footer start here ------------------------------------------------>
+
+
+<!------------------------- Bottom Footer start here ----------------------------------------------->
+<div class="row">
+
+<div class="col-md-12" id="bottom-footer">
+	<p><i>@2022 by FrankSolution / Terms of Use / Privacy Policy...</i></p>
+</div>
+</div>
+<!------------------------- Bottom Footer start here ----------------------------------------------->
+
+<!--Closing of div container -->
+</div>
+					    			
+
+
+
+ 	
+ <!--JS File-->
+	 <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+
+	 <script type="text/javascript" language="javascript">
+
+	 	$(document).ready(function(){
+
+	 		$("#mybutton").click(function(){
+
+	 			$("#btnread").load('loadservice.php');
+
+	 	});
+
+	 	});
+
+	 </script>
+
+		</body>
+	</html>
